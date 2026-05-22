@@ -82,3 +82,34 @@
     display: flex;
     align-items: center;
 }
+
+.hover-reactions:hover {
+    background-color: #2cadc7;
+    background: linear-gradient(90deg, rgba(44, 173, 199, 1) 0%, rgba(111, 62, 201, 1) 100%);
+
+}
+
+.hover-entertainment:hover {
+    background-color: #2c36c7;
+    background: linear-gradient(90deg, rgba(44, 54, 199, 1) 0%, rgba(153, 27, 179, 1) 100%);
+}
+
+.hover-sports:hover {
+    background-color: #9a1eb3;
+    background: linear-gradient(90deg, rgba(154, 30, 179, 1) 0%, rgba(204, 31, 187, 1) 100%);
+}
+
+.hover-stickers:hover {
+    background-color: #e33bd2;
+    background: linear-gradient(90deg, rgba(227, 59, 210, 1) 0%, rgba(250, 50, 173, 1) 100%);
+}
+
+.hover-artists:hover {
+    background-color: #ff2bb1;
+    background: linear-gradient(90deg, rgba(255, 43, 177, 1) 0%, rgba(255, 20, 106, 1) 100%);
+}
+
+.hover-moreverticon:hover {
+    background-color: #ff147e;
+    background: linear-gradient(90deg, rgba(255, 20, 126, 1) 0%, rgba(247, 17, 132, 1) 100%);
+}
