@@ -1,5 +1,4 @@
 .header{
-    background-color: orange;
     display: flex;
     align-items: center;
 }
@@ -9,6 +8,77 @@
 }
 
 .menu{
-    background-color: purple;
     display: flex;
+    flex: 1;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+.button{
+    background-color: #6d63ff;
+    width: 75px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3px;
+}
+
+.profile {
+    background-color: #4a494a;
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile img{
+    width: 35px;
+}
+
+.button-wrapper{
+    background-color: teal;
+    height: 35px;
+    display: flex;
+    align-items: flex-start;
+    margin-right: 10px;
+}
+
+.reactions{
+    background: #2cadc7;
+    background: linear-gradient(90deg, rgba(44, 173, 199, 1) 0%, rgba(111, 62, 201, 1) 100%);
+}
+
+.entertainment{
+    background: #2c36c7;
+    background: linear-gradient(90deg, rgba(44, 54, 199, 1) 0%, rgba(153, 27, 179, 1) 100%);
+}
+
+.sports{
+    background: #9a1eb3;
+    background: linear-gradient(90deg, rgba(154, 30, 179, 1) 0%, rgba(204, 31, 187, 1) 100%);
+}
+
+.stickers{
+    background: #e33bd2;
+    background: linear-gradient(90deg, rgba(227, 59, 210, 1) 0%, rgba(250, 50, 173, 1) 100%);
+}
+
+.artists{
+    background: #ff2bb1;
+    background: linear-gradient(90deg, rgba(255, 43, 177, 1) 0%, rgba(255, 20, 106, 1) 100%);
+}
+
+.moreverticon{
+    background: #ff147e;
+    background: linear-gradient(90deg, rgba(255, 20, 126, 1) 0%, rgba(247, 17, 132, 1) 100%);
+}
+
+.menu-button {
+    background-color: #121212;
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
 }
